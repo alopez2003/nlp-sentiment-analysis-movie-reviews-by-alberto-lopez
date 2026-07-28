@@ -1,104 +1,100 @@
-# nlp-sentiment-analysis-movie-reviews-by-alberto-lopez
 # Procesamiento del Lenguaje Natural (PLN)
 
-## Clasificación de Sentimientos en Reseñas de Películas con Modelos Clásicos y Redes Neuronales Sencillas
+# Clasificación de Sentimientos en Reseñas de Películas mediante Naive Bayes y Redes Neuronales
 
 <p align="center">
-  <img src="images/flujo_metodologico.png" alt="Metodología del proyecto" width="1000">
+  <img src="images/flujo_metodologico.png" alt="Metodología del Proyecto" width="1000">
 </p>
-
-### Comparación entre Multinomial Naive Bayes y Redes Neuronales con Keras
-
-> Proyecto Final del módulo de **Procesamiento del Lenguaje Natural y LLMs**  
-> Postgrado en Inteligencia Artificial y Machine Learning  
-> **IEBS Digital School**
 
 ---
 
-## Descripción del proyecto
+## Descripción
 
-Este proyecto presenta el desarrollo completo de un sistema de clasificación de sentimientos utilizando técnicas de Procesamiento del Lenguaje Natural (PLN). El objetivo principal consiste en comparar el desempeño de un modelo clásico de aprendizaje automático (**Multinomial Naive Bayes**) frente a una **Red Neuronal** implementada con TensorFlow/Keras, utilizando el corpus **movie_reviews** de NLTK.
+Este proyecto desarrolla un sistema de clasificación automática de sentimientos utilizando técnicas de Procesamiento del Lenguaje Natural (PLN).
 
-Para garantizar una comparación objetiva, ambos modelos fueron entrenados utilizando exactamente el mismo conjunto de datos, el mismo proceso de preprocesamiento y la misma representación vectorial mediante **CountVectorizer**. Posteriormente, su desempeño fue evaluado utilizando diversas métricas de clasificación y visualizaciones que permiten interpretar sus fortalezas y limitaciones.
+Se comparan dos enfoques ampliamente utilizados para la clasificación de texto:
+
+- Multinomial Naive Bayes
+- Red Neuronal implementada con TensorFlow/Keras
+
+Ambos modelos fueron entrenados utilizando el corpus **movie_reviews** de NLTK y evaluados mediante diferentes métricas de desempeño para analizar sus fortalezas y limitaciones.
 
 ---
 
 ## Objetivos
 
-- Preparar un conjunto de datos de texto para tareas de clasificación.
-- Implementar un modelo basado en Multinomial Naive Bayes.
-- Diseñar y entrenar una Red Neuronal utilizando Keras.
-- Comparar ambos enfoques mediante métricas de evaluación.
-- Analizar e interpretar los resultados obtenidos.
+- Implementar un clasificador basado en Naive Bayes.
+- Diseñar una red neuronal sencilla utilizando Keras.
+- Comparar objetivamente ambos modelos.
+- Analizar los resultados mediante diferentes métricas.
+- Comprender el impacto del preprocesamiento en tareas de PLN.
 
 ---
 
 ## Tecnologías utilizadas
 
-| Tecnología | Uso |
-|------------|-----|
-| Python | Lenguaje de programación |
-| NLTK | Procesamiento del lenguaje natural |
-| Scikit-learn | Modelos de Machine Learning |
-| TensorFlow / Keras | Red neuronal |
-| Pandas | Manipulación de datos |
-| NumPy | Procesamiento numérico |
-| Matplotlib | Visualización |
-| Jupyter Notebook | Desarrollo del proyecto |
+- Python
+- NLTK
+- Scikit-learn
+- TensorFlow / Keras
+- Pandas
+- NumPy
+- Matplotlib
 
 ---
 
-## Conjunto de datos
+## Dataset
 
-El proyecto utiliza el corpus **movie_reviews**, disponible en la biblioteca **NLTK**.
+El proyecto utiliza el corpus **movie_reviews** incluido en la biblioteca NLTK.
 
 Características principales:
 
-- 2,000 reseñas de películas
-- Distribución balanceada
-- 1,000 reseñas positivas
-- 1,000 reseñas negativas
-- Clasificación binaria de sentimientos
+- 2,000 reseñas
+- Clasificación binaria
+- 1,000 positivas
+- 1,000 negativas
+- Idioma inglés
 
 ---
 
 ## Metodología
 
-El proyecto se desarrolló siguiendo las siguientes etapas:
+El flujo general del proyecto comprende las siguientes etapas:
 
-1. Preparación del entorno.
-2. Descarga del corpus.
-3. Exploración de los datos.
-4. Preprocesamiento del texto.
-5. Vectorización mediante CountVectorizer.
-6. Entrenamiento del modelo Naive Bayes.
-7. Construcción y entrenamiento de la Red Neuronal.
-8. Evaluación comparativa.
-9. Interpretación de resultados.
+1. Carga del corpus.
+2. Preprocesamiento del texto.
+3. Vectorización mediante CountVectorizer.
+4. Entrenamiento de Naive Bayes.
+5. Entrenamiento de una Red Neuronal.
+6. Evaluación comparativa mediante métricas y visualizaciones.
 
 ---
 
-## Resultados principales
+## Resultados
 
-Los modelos fueron evaluados utilizando las siguientes métricas:
+| Modelo | Accuracy | Precision | Recall | F1-score | ROC-AUC |
+|---------|---------:|----------:|--------:|---------:|--------:|
+| Naive Bayes | 0.8100 | 0.7925 | 0.8400 | 0.8155 | 0.8870 |
+| Red Neuronal | **0.8275** | 0.7835 | **0.9050** | **0.8399** | **0.9175** |
 
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- ROC-AUC
-
-La Red Neuronal obtuvo el mejor desempeño general, mientras que Naive Bayes demostró ser una alternativa muy competitiva debido a su simplicidad y eficiencia computacional.
+La red neuronal obtuvo el mejor desempeño global, especialmente en Recall y ROC-AUC, mientras que Naive Bayes demostró ser una excelente línea base gracias a su simplicidad y eficiencia computacional.
 
 ---
 
-## Contenido del repositorio
+## Estructura del repositorio
 
 ```text
 .
-├── notebook/
 ├── docs/
+│   ├── Proyecto_Final_PLN.pdf
+│   └── Proyecto_Final_PLN.docx
+│
 ├── images/
+│   └── flujo_metodologico.png
+│
+├── notebook/
+│   └── proyecto_final_pln.ipynb
+│
 ├── README.md
 ├── LICENSE
 └── requirements.txt
@@ -106,14 +102,35 @@ La Red Neuronal obtuvo el mejor desempeño general, mientras que Naive Bayes dem
 
 ---
 
-## Trabajo futuro
+## Documentación
 
-Algunas posibles líneas de evolución del proyecto son:
+Este repositorio incluye distintos niveles de documentación para facilitar la comprensión y reproducción del proyecto.
 
-- Incorporar TF-IDF como técnica de representación.
-- Evaluar modelos basados en Transformers.
-- Comparar embeddings modernos.
-- Aplicar el flujo de trabajo a otros dominios de texto.
+| Recurso | Descripción |
+|---------|-------------|
+| 📓 Notebook | Implementación completa del proyecto |
+| 📄 Informe PDF | Documento técnico completo |
+| 📝 Informe Word | Versión editable del informe |
+
+---
+
+## Artículo en Medium
+
+> Próximamente se publicará un artículo donde se describirá el desarrollo del proyecto, los principales aprendizajes y las conclusiones obtenidas durante la comparación entre Naive Bayes y una red neuronal sencilla.
+
+---
+
+## Cómo ejecutar
+
+```bash
+git clone https://github.com/alopez2003/nlp-sentiment-analysis-movie-reviews-by-alberto-lopez.git
+
+cd nlp-sentiment-analysis-movie-reviews-by-alberto-lopez
+
+pip install -r requirements.txt
+
+jupyter notebook
+```
 
 ---
 
@@ -121,14 +138,9 @@ Algunas posibles líneas de evolución del proyecto son:
 
 **Alberto López Gutiérrez**
 
-Proyecto Final
-
-Procesamiento del Lenguaje Natural
-
-Postgrado en Inteligencia Artificial y Machine Learning
+Proyecto desarrollado como parte del **Postgrado en Inteligencia Artificial y Machine Learning** de **IEBS Digital School**.
 
 ## Profesora
 
 ** Layla Schelli**
 
-IEBS Digital School
