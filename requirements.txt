@@ -1,0 +1,14 @@
+# =====================================================
+# Requirements
+# NLP Sentiment Analysis Project
+# Python 3.13
+# =====================================================
+
+numpy
+pandas
+matplotlib
+nltk
+scikit-learn
+tensorflow
+notebook
+ipykernel
