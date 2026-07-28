@@ -1,3 +1,12 @@
+| Información | Detalle |
+|------------|---------|
+| Autor | Alberto López Gutiérrez |
+| Institución | IEBS Digital School |
+| Programa | Postgrado en IA y Machine Learning |
+| Módulo | Procesamiento del Lenguaje Natural |
+| Lenguaje | Python |
+| Estado | Finalizado |
+
 # Clasificacion de Sentimientos mediante Procesamiento del Lenguaje Natural
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
@@ -17,6 +26,19 @@
 Este repositorio presenta el proyecto final desarrollado para el módulo de Procesamiento del Lenguaje Natural (PLN) del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Digital School.
 
 El objetivo del proyecto consiste en comparar el desempeño de un modelo clasico de aprendizaje automático (Naive Bayes) frente a una red neuronal sencilla para la clasificacion automatica de sentimientos en reseñas de peliculas.
+
+## Contenido
+
+- Descripción
+- Objetivos
+- Tecnologías
+- Dataset
+- Metodología
+- Resultados
+- Estructura
+- Documentación
+- Cómo ejecutar
+- Autor
 
 ## Descripción
 
@@ -91,6 +113,13 @@ La red neuronal obtuvo el mejor desempeño global, especialmente en Recall y ROC
 
 ---
 
+## Resultados destacados
+
+- La red neuronal obtuvo el mayor Accuracy.
+- Alcanzo el mejor Recall para identificar reseñas positivas.
+- Naive Bayes presento un desempeño competitivo con un costo computacional considerablemente menor.
+- Ambos modelos demostraron la importancia del preprocesamiento en tareas de PLN.
+
 ## Estructura del repositorio
 
 ```text
@@ -124,13 +153,15 @@ Este repositorio incluye distintos niveles de documentación para facilitar la c
 
 ---
 
-## Artículo en Medium
+## Publicaciones relacionadas
 
-> Proximamente se publicara un artículo donde se describirá el desarrollo del proyecto, los principales aprendizajes y las conclusiones obtenidas durante la comparación entre Naive Bayes y una red neuronal sencilla.
+El desarrollo de este proyecto será complementado con un artículo técnico en Medium donde se describirá el proceso de construcción, los principales retos encontrados y las lecciones aprendidas durante la comparación entre un modelo probabilístico clásico y una red neuronal para clasificación de sentimientos.
+
+> **Disponible próximamente.**
 
 ---
 
-## Cómo ejecutar
+## Instalacion y ejecucion
 
 ```bash
 git clone https://github.com/alopez2003/nlp-sentiment-analysis-movie-reviews-by-alberto-lopez.git
@@ -150,7 +181,14 @@ jupyter notebook
 
 Proyecto desarrollado como parte del **Postgrado en Inteligencia Artificial y Machine Learning** de **IEBS Digital School**.
 
-## Profesora
+## Agradecimientos
 
-**Layla Schelli**
+Este proyecto fue desarrollado como parte del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Digital School.
 
+Agradecimiento especial a la profesora **Layla Schelli** por la guía y acompañamiento durante el desarrollo del proyecto.
+
+## Licencia
+
+Este proyecto se distribuye bajo la licencia MIT.
+
+Consulta el archivo LICENSE para más información.
