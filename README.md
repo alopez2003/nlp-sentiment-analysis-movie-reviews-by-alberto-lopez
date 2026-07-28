@@ -1,5 +1,11 @@
 # Procesamiento del Lenguaje Natural (PLN)
 
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-f7931e)
+![NLTK](https://img.shields.io/badge/NLTK-NLP-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # Clasificación de Sentimientos en Reseñas de Películas mediante Naive Bayes y Redes Neuronales
 
 <p align="center">
