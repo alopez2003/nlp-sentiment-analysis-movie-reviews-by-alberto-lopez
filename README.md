@@ -25,9 +25,11 @@
 
 Este repositorio presenta el proyecto final desarrollado para el módulo de Procesamiento del Lenguaje Natural (PLN) del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Digital School.
 
-El objetivo del proyecto consiste en comparar el desempeño de un modelo clásico de aprendizaje automático (Naive Bayes) frente a una red neuronal sencilla para la clasificación automatica de sentimientos en reseñas de películas.
+El objetivo del proyecto consiste en comparar el desempeño de un modelo clásico de aprendizaje automático (Naive Bayes) frente a una red neuronal sencilla para la clasificación automática de sentimientos en reseñas de películas.
 
-## Tabla de Contenido
+> Este proyecto compara un modelo probabilístico clásico (Naive Bayes) con una red neuronal sencilla para la clasificación automática de sentimientos utilizando el corpus *movie_reviews* de NLTK.
+
+## Tabla de contenido
 
 - Descripción
 - Objetivos
@@ -42,7 +44,7 @@ El objetivo del proyecto consiste en comparar el desempeño de un modelo clásic
 
 ## Descripción
 
-Este proyecto desarrolla un sistema de clasificación automatica de sentimientos utilizando técnicas de Procesamiento del Lenguaje Natural (PLN).
+Este proyecto desarrolla un sistema de clasificación automática de sentimientos utilizando técnicas de Procesamiento del Lenguaje Natural (PLN).
 
 Se comparan dos enfoques ampliamente utilizados para la clasificación de texto:
 
@@ -82,7 +84,7 @@ El proyecto utiliza el corpus **movie_reviews** incluido en la biblioteca NLTK.
 Características principales:
 
 - 2,000 reseñas
-- clasificación binaria
+- Clasificación binaria
 - 1,000 positivas
 - 1,000 negativas
 - Idioma inglés
@@ -108,8 +110,6 @@ El flujo general del proyecto comprende las siguientes etapas:
 |---------|---------:|----------:|--------:|---------:|--------:|
 | Naive Bayes | 0.8100 | 0.7925 | 0.8400 | 0.8155 | 0.8870 |
 | Red Neuronal | **0.8275** | 0.7835 | **0.9050** | **0.8399** | **0.9175** |
-
-> Este proyecto compara un modelo probabilístico clásico (Naive Bayes) con una red neuronal sencilla para la clasificación automática de sentimientos utilizando el corpus *movie_reviews* de NLTK.
 
 La red neuronal obtuvo el mejor desempeño global, especialmente en Recall y ROC-AUC, mientras que Naive Bayes demostró ser una excelente línea base gracias a su simplicidad y eficiencia computacional.
 
@@ -166,7 +166,7 @@ El desarrollo de este proyecto será complementado con un artículo técnico en 
 ## Instalación y ejecución
 
 ```bash
-git clone https://github.com/aLópez2003/nlp-sentiment-analysis-movie-reviews-by-alberto-lopez.git
+git clone https://github.com/alopez2003/nlp-sentiment-analysis-movie-reviews-by-alberto-lopez.git
 
 cd nlp-sentiment-analysis-movie-reviews-by-alberto-lopez
 
@@ -179,10 +179,10 @@ jupyter notebook
 
 ## Referencias
 
-- NLTK Documentation
-- TensorFlow Documentation
-- Scikit-learn Documentation
-- NLTK Movie Reviews Corpus
+- NLTK Documentation: https://www.nltk.org/
+- TensorFlow Documentation: https://www.tensorflow.org/
+- Scikit-learn Documentation: https://scikit-learn.org/
+- NLTK Movie Reviews Corpus: https://www.nltk.org/book/ch02.html
 
 ## Autor
 
