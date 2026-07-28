@@ -201,14 +201,10 @@ nltk.download("stopwords")
 
 ## Referencias
 
-- NLTK Documentation  
-  https://www.nltk.org/
-
-- TensorFlow Documentation  
-  https://www.tensorflow.org/
-
-- Scikit-Learn Documentation  
-  https://scikit-learn.org/
+- [NLTK Documentation](https://www.nltk.org/)
+- [TensorFlow Documentation](https://www.tensorflow.org/)
+- [Scikit-learn Documentation](https://scikit-learn.org/)
+- [NLTK Book – Chapter 2](https://www.nltk.org/book/ch02.html)
 
 ## Autor
 
