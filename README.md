@@ -1,7 +1,7 @@
 | Información | Detalle |
 |------------|---------|
 | Autor | Alberto López Gutiérrez |
-| Institución | IEBS Digital School |
+| Institución | IEBS Business School |
 | Programa | Postgrado en IA y Machine Learning |
 | Módulo | Procesamiento del Lenguaje Natural |
 | Lenguaje | Python |
@@ -23,7 +23,7 @@
 
 ---
 
-Este repositorio presenta el proyecto final desarrollado para el módulo de Procesamiento del Lenguaje Natural (PLN) del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Digital School.
+Este repositorio presenta el proyecto final desarrollado para el módulo de Procesamiento del Lenguaje Natural (PLN) del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Business School.
 
 El objetivo del proyecto consiste en comparar el desempeño de un modelo clásico de aprendizaje automático (Naive Bayes) frente a una red neuronal sencilla para la clasificación automática de sentimientos en reseñas de películas.
 
@@ -158,9 +158,9 @@ Este repositorio incluye distintos niveles de documentación para facilitar la c
 
 ## Publicaciones relacionadas
 
-El desarrollo de este proyecto será complementado con un artículo técnico en Medium donde se describirá el proceso de construcción, los principales retos encontrados y las lecciones aprendidas durante la comparación entre un modelo probabilístico clásico y una red neuronal para clasificación de sentimientos.
+El desarrollo de este proyecto es complementado con un artículo técnico en Medium donde se describe el proceso de construcción, los principales retos encontrados y las lecciones aprendidas durante la comparación entre un modelo probabilístico clásico y una red neuronal para clasificación de sentimientos.
 
-> **Disponible próximamente.**
+> [**Del Análisis de Sentimientos a la Inteligencia Artificial Generativa.**](https://medium.com/@alopezg/del-an%C3%A1lisis-de-sentimientos-a-la-inteligencia-artificial-generativa-reflexiones-sobre-mi-proyecto-7a7f0048ac4e?postPublishedType=repub)
 
 ## Aprendizajes
 
@@ -210,11 +210,11 @@ nltk.download("stopwords")
 
 **Alberto López Gutiérrez**
 
-Proyecto desarrollado como parte del **Postgrado en Inteligencia Artificial y Machine Learning** de **IEBS Digital School**.
+Proyecto desarrollado como parte del **Postgrado en Inteligencia Artificial y Machine Learning** de **IEBS Business School**.
 
 ## Agradecimientos
 
-Este proyecto fue desarrollado como parte del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Digital School.
+Este proyecto fue desarrollado como parte del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Business School.
 
 Agradezco especialmente a la profesora **Layla Schelli** por los conocimientos compartidos, la orientación brindada y el acompañamiento durante el desarrollo de este proyecto.
 
