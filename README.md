@@ -3,6 +3,10 @@
 
 ## Clasificación de Sentimientos en Reseñas de Películas con Modelos Clásicos y Redes Neuronales Sencillas
 
+<p align="center">
+  <img src="images/flujo_metodologico.png" alt="Metodología del proyecto" width="1000">
+</p>
+
 ### Comparación entre Multinomial Naive Bayes y Redes Neuronales con Keras
 
 > Proyecto Final del módulo de **Procesamiento del Lenguaje Natural y LLMs**  
