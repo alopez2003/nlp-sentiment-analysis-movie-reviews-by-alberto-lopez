@@ -175,6 +175,19 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
+### Configuración inicial de NLTK
+
+Antes de ejecutar el notebook por primera vez, descarga los recursos necesarios:
+
+```python
+import nltk
+
+nltk.download("movie_reviews")
+nltk.download("punkt")
+nltk.download("stopwords")
+```
+
+
 ---
 
 ## Referencias
