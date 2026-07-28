@@ -31,16 +31,17 @@ El objetivo del proyecto consiste en comparar el desempeño de un modelo clásic
 
 ## Tabla de contenido
 
-- Descripción
-- Objetivos
-- Tecnologías
-- Dataset
-- Metodología
-- Resultados
-- Estructura
-- Documentación
-- Cómo ejecutar
-- Autor
+- [Descripción](#descripción)
+- [Objetivos](#objetivos)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Dataset](#dataset)
+- [Metodología](#metodología)
+- [Resultados](#resultados)
+- [Estructura del repositorio](#estructura-del-repositorio)
+- [Documentación](#documentación)
+- [Instalación y ejecución](#instalación-y-ejecución)
+- [Referencias](#referencias)
+- [Autor](#autor)
 
 ## Descripción
 
@@ -161,6 +162,12 @@ El desarrollo de este proyecto será complementado con un artículo técnico en 
 
 > **Disponible próximamente.**
 
+## Aprendizajes
+
+Durante el desarrollo de este proyecto fue posible comprobar cómo un modelo clásico como Naive Bayes continúa siendo una alternativa muy competitiva para tareas de clasificación de texto, mientras que una red neuronal sencilla puede mejorar el desempeño cuando se dispone de un preprocesamiento adecuado y suficientes datos para entrenamiento.
+
+Además de comparar ambos enfoques, este proyecto permitió reforzar conceptos relacionados con el procesamiento del lenguaje natural, la evaluación de modelos de aprendizaje automático y la importancia de la ingeniería de características en problemas de clasificación de texto.
+
 ---
 
 ## Instalación y ejecución
@@ -171,6 +178,8 @@ git clone https://github.com/alopez2003/nlp-sentiment-analysis-movie-reviews-by-
 cd nlp-sentiment-analysis-movie-reviews-by-alberto-lopez
 
 pip install -r requirements.txt
+
+cd notebook
 
 jupyter notebook
 ```
@@ -192,10 +201,14 @@ nltk.download("stopwords")
 
 ## Referencias
 
-- NLTK Documentation: https://www.nltk.org/
-- TensorFlow Documentation: https://www.tensorflow.org/
-- Scikit-learn Documentation: https://scikit-learn.org/
-- NLTK Movie Reviews Corpus: https://www.nltk.org/book/ch02.html
+- NLTK Documentation  
+  https://www.nltk.org/
+
+- TensorFlow Documentation  
+  https://www.tensorflow.org/
+
+- Scikit-Learn Documentation  
+  https://scikit-learn.org/
 
 ## Autor
 
