@@ -27,7 +27,7 @@ Este repositorio presenta el proyecto final desarrollado para el módulo de Proc
 
 El objetivo del proyecto consiste en comparar el desempeño de un modelo clásico de aprendizaje automático (Naive Bayes) frente a una red neuronal sencilla para la clasificación automatica de sentimientos en reseñas de películas.
 
-## Contenido
+## Tabla de Contenido
 
 - Descripción
 - Objetivos
@@ -49,7 +49,7 @@ Se comparan dos enfoques ampliamente utilizados para la clasificación de texto:
 - Multinomial Naive Bayes
 - Red Neuronal implementada con TensorFlow/Keras
 
-Ambos modelos fueron entrenados utilizando el corpus **movie_reviews** de NLTK y evaluados mediante diferentes Métricas de desempeño para analizar sus fortalezas y limitaciones.
+Ambos modelos fueron entrenados utilizando el corpus **movie_reviews** de NLTK y evaluados mediante diferentes métricas de desempeño para analizar sus fortalezas y limitaciones.
 
 ---
 
@@ -58,7 +58,7 @@ Ambos modelos fueron entrenados utilizando el corpus **movie_reviews** de NLTK y
 - Implementar un clasificador basado en Naive Bayes.
 - Diseñar una red neuronal sencilla utilizando Keras.
 - Comparar objetivamente ambos modelos.
-- Analizar los resultados mediante diferentes Métricas.
+- Analizar los resultados mediante diferentes métricas.
 - Comprender el impacto del preprocesamiento en tareas de PLN.
 
 ---
@@ -98,7 +98,7 @@ El flujo general del proyecto comprende las siguientes etapas:
 3. Vectorización mediante CountVectorizer.
 4. Entrenamiento de Naive Bayes.
 5. Entrenamiento de una Red Neuronal.
-6. evaluación comparativa mediante Métricas y visualizaciones.
+6. Evaluación comparativa mediante métricas y visualizaciones.
 
 ---
 
@@ -179,10 +179,10 @@ jupyter notebook
 
 ## Referencias
 
-- NLTK
-- TensorFlow
-- Scikit-learn
-- Movie Reviews Corpus
+- NLTK Documentation
+- TensorFlow Documentation
+- Scikit-learn Documentation
+- NLTK Movie Reviews Corpus
 
 ## Autor
 
@@ -194,7 +194,7 @@ Proyecto desarrollado como parte del **Postgrado en Inteligencia Artificial y Ma
 
 Este proyecto fue desarrollado como parte del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Digital School.
 
-Agradecimiento especialmente a la profesora **Layla Schelli** por el conocimiento aportado para la elaboración de este proyecto.
+Agradezco especialmente a la profesora **Layla Schelli** por los conocimientos compartidos, la orientación brindada y el acompañamiento durante el desarrollo de este proyecto.
 
 ## Licencia
 
