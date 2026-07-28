@@ -10,7 +10,7 @@
 # Clasificación de Sentimientos en Reseñas de Películas mediante Naive Bayes y Redes Neuronales
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
-![TensorFlow 2.21](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.21-orange)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-f7931e)
 ![NLTK](https://img.shields.io/badge/NLTK-NLP-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
@@ -25,7 +25,7 @@
 
 Este repositorio presenta el proyecto final desarrollado para el módulo de Procesamiento del Lenguaje Natural (PLN) del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Digital School.
 
-El objetivo del proyecto consiste en comparar el desempeño de un modelo clasico de aprendizaje automático (Naive Bayes) frente a una red neuronal sencilla para la clasificación automatica de sentimientos en reseñas de películas.
+El objetivo del proyecto consiste en comparar el desempeño de un modelo clásico de aprendizaje automático (Naive Bayes) frente a una red neuronal sencilla para la clasificación automatica de sentimientos en reseñas de películas.
 
 ## Contenido
 
@@ -42,7 +42,7 @@ El objetivo del proyecto consiste en comparar el desempeño de un modelo clasico
 
 ## Descripción
 
-Este proyecto desarrolla un sistema de clasificación automatica de sentimientos utilizando tecnicas de Procesamiento del Lenguaje Natural (PLN).
+Este proyecto desarrolla un sistema de clasificación automatica de sentimientos utilizando técnicas de Procesamiento del Lenguaje Natural (PLN).
 
 Se comparan dos enfoques ampliamente utilizados para la clasificación de texto:
 
@@ -79,7 +79,7 @@ Ambos modelos fueron entrenados utilizando el corpus **movie_reviews** de NLTK y
 
 El proyecto utiliza el corpus **movie_reviews** incluido en la biblioteca NLTK.
 
-Caracteristicas principales:
+Características principales:
 
 - 2,000 reseñas
 - clasificación binaria
@@ -89,13 +89,13 @@ Caracteristicas principales:
 
 ---
 
-## Metodologia
+## Metodología
 
 El flujo general del proyecto comprende las siguientes etapas:
 
 1. Carga del corpus.
 2. Preprocesamiento del texto.
-3. Vectorizacion mediante CountVectorizer.
+3. Vectorización mediante CountVectorizer.
 4. Entrenamiento de Naive Bayes.
 5. Entrenamiento de una Red Neuronal.
 6. evaluación comparativa mediante Métricas y visualizaciones.
@@ -111,15 +111,15 @@ El flujo general del proyecto comprende las siguientes etapas:
 
 > Este proyecto compara un modelo probabilístico clásico (Naive Bayes) con una red neuronal sencilla para la clasificación automática de sentimientos utilizando el corpus *movie_reviews* de NLTK.
 
-La red neuronal obtuvo el mejor desempeño global, especialmente en Recall y ROC-AUC, mientras que Naive Bayes demostro ser una excelente línea base gracias a su simplicidad y eficiencia computacional.
+La red neuronal obtuvo el mejor desempeño global, especialmente en Recall y ROC-AUC, mientras que Naive Bayes demostró ser una excelente línea base gracias a su simplicidad y eficiencia computacional.
 
 ---
 
 ## Resultados destacados
 
 - La red neuronal obtuvo el mayor Accuracy.
-- Alcanzo el mejor Recall para identificar reseñas positivas.
-- Naive Bayes presento un desempeño competitivo con un costo computacional considerablemente menor.
+- Alcanzó el mejor Recall para identificar reseñas positivas.
+- Naive Bayes presentó un desempeño competitivo con un costo computacional considerablemente menor.
 - Ambos modelos demostraron la importancia del preprocesamiento en tareas de PLN.
 
 ## Estructura del repositorio
@@ -145,12 +145,12 @@ La red neuronal obtuvo el mejor desempeño global, especialmente en Recall y ROC
 
 ## Documentación
 
-Este repositorio incluye distintos niveles de documentación para facilitar la comprension y reproduccion del proyecto.
+Este repositorio incluye distintos niveles de documentación para facilitar la comprensión y reproducción del proyecto.
 
 | Recurso | Descripción |
 |---------|-------------|
-| 📓 Notebook | Implementacion completa del proyecto |
-| 📄 Informe PDF | Documento tecnico completo |
+| 📓 Notebook | Implementación completa del proyecto |
+| 📄 Informe PDF | Documento técnico completo |
 | 📝 Informe Word | Versión editable del informe |
 
 ---
@@ -163,12 +163,12 @@ El desarrollo de este proyecto será complementado con un artículo técnico en 
 
 ---
 
-## Instalacion y ejecucion
+## Instalación y ejecución
 
 ```bash
-git clone https://github.com/aLópez2003/nlp-sentiment-analysis-movie-reviews-by-alberto-López.git
+git clone https://github.com/aLópez2003/nlp-sentiment-analysis-movie-reviews-by-alberto-lopez.git
 
-cd nlp-sentiment-analysis-movie-reviews-by-alberto-López
+cd nlp-sentiment-analysis-movie-reviews-by-alberto-lopez
 
 pip install -r requirements.txt
 
@@ -194,7 +194,7 @@ Proyecto desarrollado como parte del **Postgrado en Inteligencia Artificial y Ma
 
 Este proyecto fue desarrollado como parte del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Digital School.
 
-Agradecimiento especialmente a la profesora **Layla Schelli** por el conocimiento aportado para la elaboracion de este proyecto.
+Agradecimiento especialmente a la profesora **Layla Schelli** por el conocimiento aportado para la elaboración de este proyecto.
 
 ## Licencia
 
