@@ -135,7 +135,7 @@ La red neuronal obtuvo el mejor desempeño global, especialmente en Recall y ROC
 │   └── flujo_metodologico.png
 │
 ├── notebook/
-│   └── proyecto_final_pln.ipynb
+│   └── Proyecto_Final_Alberto_Lopez.ipynb
 │
 ├── README.md
 ├── LICENSE
@@ -216,7 +216,7 @@ Proyecto desarrollado como parte del **Postgrado en Inteligencia Artificial y Ma
 
 Este proyecto fue desarrollado como parte del Postgrado en Inteligencia Artificial y Machine Learning de IEBS Business School.
 
-Agradezco especialmente a la profesora **Layla Schelli** por los conocimientos compartidos, la orientación brindada y el acompañamiento durante el desarrollo de este proyecto.
+Agradezco especialmente a la profesora **Layla Scheli** por los conocimientos compartidos, la orientación brindada y el acompañamiento durante el desarrollo de este proyecto.
 
 ## Licencia
 
